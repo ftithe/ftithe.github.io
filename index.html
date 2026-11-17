@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,6 +8,7 @@
 
 <title>Meseret Asrat</title>
 
+<!-- Google Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
@@ -31,7 +33,7 @@ body {
 /* Header */
 
 header {
-    padding-bottom: 30px;
+    padding-bottom: 25px;
     border-bottom: 1px solid #eadbc9;
 }
 
@@ -40,19 +42,13 @@ h1 {
     font-size: 43px;
     font-weight: 600;
     color: #493629;
-    margin: 0 0 8px;
-}
-
-.subtitle {
-    color: #806c5b;
-    font-size: 15px;
-    line-height: 1.7;
+    margin: 0;
 }
 
 /* Navigation */
 
 nav {
-    margin-top: 28px;
+    margin-top: 25px;
 }
 
 nav a {
@@ -102,16 +98,35 @@ p {
 
 .publication-info {
     font-size: 14px;
-    line-height: 1.8;
+    line-height: 1.9;
     margin: 0;
 }
 
 .publication-info strong {
-    color: #895a39;
+    color: #63452f;
 }
 
+.publication-info em {
+    color: #594d43;
+}
+
+.publication-info a {
+    color: #a66b42;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 13px;
+    margin-left: 5px;
+}
+
+.publication-info a:hover {
+    color: #603d27;
+    text-decoration: underline;
+}
+
+/* Publication Summary */
+
 .summary {
-    margin-top: 8px;
+    margin-top: 10px;
     font-size: 14px;
     line-height: 1.8;
     color: #594d43;
@@ -127,7 +142,7 @@ footer {
     color: #927f70;
 }
 
-/* Mobile layout */
+/* Mobile Layout */
 
 @media (max-width: 600px) {
 
@@ -146,6 +161,10 @@ footer {
     h2 {
         font-size: 23px;
     }
+
+    .publication-info {
+        line-height: 1.8;
+    }
 }
 
 </style>
@@ -157,13 +176,7 @@ footer {
 
 <header>
 
-<h1>Meseret Asrat</h1>
-
-<p class="subtitle">
-... <br>
-... <br>
-...
-</p>
+<h1>Your Name</h1>
 
 <nav>
 <a href="#about">About Me</a>
@@ -181,7 +194,7 @@ footer {
 <h2>About Me</h2>
 
 <p>
- I am a theoretical physicist. ... 
+I am a theoretical physicist. ... 
 </p>
 
 </section>
@@ -194,7 +207,7 @@ footer {
 <h2>Research Interests</h2>
 
 <p>
-My research interests encompass string theory, gauge/gravity duality, quantum field theory and mathematical physics.
+ My research interests encompass string theory, gauge/gravity duality, quantum field theory and mathematical physics. 
 </p>
 
 </section>
@@ -206,55 +219,71 @@ My research interests encompass string theory, gauge/gravity duality, quantum fi
 
 <h2>Publications</h2>
 
+
+<!-- Publication 1 -->
+
 <div class="publication">
 
 <p class="publication-info">
-<strong>1. An integrable deformation of the sine(sinh)-Gordon model – Non-Lie algebra.</strong>
 M. Asrat.
-<em>JHEP 09 (2026) 208</em>, arXiv:2606.15794v2[hep-th].
+<strong>"An integrable deformation of the sine(sinh)-Gordon model – Non-Lie algebra."</strong>
+<em>JHEP 09 (2026) 208</em>.
+
+<a href="https://doi.org/10.1007/JHEP09(2026)208"
+target="_blank" rel="noopener noreferrer">
+[Paper Link]
+</a>
 </p>
 
 <p class="summary">
 <strong>Summary:</strong>
-Write a brief summary of this paper here.
-Describe the research question, methodology,
-main findings, and contribution of the study.
+The paper presents a new classically integrable model in two dimensions. It is a deformation of the sine(sinh)-Gordon model.
 </p>
 
 </div>
 
 
+<!-- Publication 2 -->
+
 <div class="publication">
 
 <p class="publication-info">
-<strong>2. Title of Your Research Paper.</strong>
 Your Name.
+<strong>"Title of Your Research Paper."</strong>
 <em>Journal Name</em>, 2025.
+
+<a href="https://doi.org/10.xxxx/example"
+target="_blank" rel="noopener noreferrer">
+[Paper Link]
+</a>
 </p>
 
 <p class="summary">
 <strong>Summary:</strong>
-Write a brief summary of this paper here.
-Explain the main research objectives and
-the key findings of the study.
+....
 </p>
 
 </div>
 
 
+<!-- Publication 3 -->
+
 <div class="publication">
 
 <p class="publication-info">
-<strong>3. Title of Your Research Paper.</strong>
 Your Name, Co-author Name.
+<strong>"Title of Your Research Paper."</strong>
 <em>Journal Name</em>, 2024.
+
+<a href="https://doi.org/10.xxxx/example"
+target="_blank" rel="noopener noreferrer">
+[Paper Link]
+</a>
 </p>
 
 <p class="summary">
 <strong>Summary:</strong>
-Write a brief summary of this paper here.
-Highlight its main contribution to the
-relevant research literature.
+....
 </p>
 
 </div>
